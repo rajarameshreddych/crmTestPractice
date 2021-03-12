@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-11T12:54:32Z" name="Suite" finished-at="2021-03-11T12:55:41Z" duration-ms="68899">
+    <groups>
+    </groups>
+    <test started-at="2021-03-11T12:54:32Z" name="Test" finished-at="2021-03-11T12:55:41Z" duration-ms="68899">
+      <class name="com.rrr.tests.LandingPageTests">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.rrr.tests.LandingPageTests@75d3a5e0]" started-at="2021-03-11T18:24:45Z" name="init" finished-at="2021-03-11T18:24:51Z" duration-ms="6419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="validateLandingPageTitle()[pri:1, instance:com.rrr.tests.LandingPageTests@75d3a5e0]" started-at="2021-03-11T18:24:51Z" name="validateLandingPageTitle" finished-at="2021-03-11T18:24:51Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLandingPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rrr.tests.LandingPageTests@75d3a5e0]" started-at="2021-03-11T18:24:51Z" name="tearDown" finished-at="2021-03-11T18:24:53Z" duration-ms="1357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.rrr.tests.LandingPageTests@75d3a5e0]" started-at="2021-03-11T18:25:16Z" name="init" finished-at="2021-03-11T18:25:23Z" duration-ms="6269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="userShouldBeNavigatedToLoginPageOnClickingLoginButtonOnLangingPage()[pri:2, instance:com.rrr.tests.LandingPageTests@75d3a5e0]" started-at="2021-03-11T18:25:23Z" name="userShouldBeNavigatedToLoginPageOnClickingLoginButtonOnLangingPage" finished-at="2021-03-11T18:25:27Z" duration-ms="4421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldBeNavigatedToLoginPageOnClickingLoginButtonOnLangingPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rrr.tests.LandingPageTests@75d3a5e0]" started-at="2021-03-11T18:25:27Z" name="tearDown" finished-at="2021-03-11T18:25:29Z" duration-ms="1784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rrr.tests.LandingPageTests -->
+      <class name="com.rrr.tests.ContactsPageTests">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.rrr.tests.ContactsPageTests@74e28667]" started-at="2021-03-11T18:24:32Z" name="init" finished-at="2021-03-11T18:24:38Z" duration-ms="6514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="validateContactsPageURL()[pri:0, instance:com.rrr.tests.ContactsPageTests@74e28667]" started-at="2021-03-11T18:24:38Z" name="validateContactsPageURL" finished-at="2021-03-11T18:24:43Z" duration-ms="5000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContactsPageURL -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rrr.tests.ContactsPageTests@74e28667]" started-at="2021-03-11T18:24:43Z" name="tearDown" finished-at="2021-03-11T18:24:45Z" duration-ms="1575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rrr.tests.ContactsPageTests -->
+      <class name="com.rrr.tests.LoginPageTests">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.rrr.tests.LoginPageTests@74d1dc36]" started-at="2021-03-11T18:24:53Z" name="init" finished-at="2021-03-11T18:24:58Z" duration-ms="5706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="validateLoginPageTitle()[pri:1, instance:com.rrr.tests.LoginPageTests@74d1dc36]" started-at="2021-03-11T18:24:58Z" name="validateLoginPageTitle" finished-at="2021-03-11T18:25:01Z" duration-ms="3190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rrr.tests.LoginPageTests@74d1dc36]" started-at="2021-03-11T18:25:01Z" name="tearDown" finished-at="2021-03-11T18:25:03Z" duration-ms="1418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.rrr.tests.LoginPageTests@74d1dc36]" started-at="2021-03-11T18:25:30Z" name="init" finished-at="2021-03-11T18:25:36Z" duration-ms="5844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="userShouldBeAbleToLoginWithValidCredentials(java.lang.String, java.lang.String)[pri:2, instance:com.rrr.tests.LoginPageTests@74d1dc36]" started-at="2021-03-11T18:25:36Z" name="userShouldBeAbleToLoginWithValidCredentials" data-provider="getLoginData" finished-at="2021-03-11T18:25:39Z" duration-ms="3547" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[itsrajach@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldBeAbleToLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rrr.tests.LoginPageTests@74d1dc36]" started-at="2021-03-11T18:25:39Z" name="tearDown" finished-at="2021-03-11T18:25:41Z" duration-ms="1424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rrr.tests.LoginPageTests -->
+      <class name="com.rrr.tests.HomePageTests">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.rrr.tests.HomePageTests@7161d8d1]" started-at="2021-03-11T18:25:03Z" name="init" finished-at="2021-03-11T18:25:10Z" duration-ms="6644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="userShouldBeRedirectedToContactsPageOnClickingContacts()[pri:1, instance:com.rrr.tests.HomePageTests@7161d8d1]" started-at="2021-03-11T18:25:10Z" name="userShouldBeRedirectedToContactsPageOnClickingContacts" finished-at="2021-03-11T18:25:15Z" duration-ms="5235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldBeRedirectedToContactsPageOnClickingContacts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rrr.tests.HomePageTests@7161d8d1]" started-at="2021-03-11T18:25:15Z" name="tearDown" finished-at="2021-03-11T18:25:16Z" duration-ms="1567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rrr.tests.HomePageTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
