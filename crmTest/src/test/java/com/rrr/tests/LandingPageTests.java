@@ -30,11 +30,12 @@ public class LandingPageTests extends TestBase {
 //		driver.quit();
 //	}
 //	
+	//@Test(priority=1, retryAnalyzer = com.rrr.util.ReRunFailedTests_TestLevel.class)
 	@Test(priority=1)
 	public void validateLandingPageTitle() {
 		landing = new LandingPage();
 		String actualTitle = landing.getPageTitle();
-		Assert.assertEquals("#1 Free CRM customer relationship management software cloud", actualTitle);
+		Assert.assertEquals("Title is not matched","#1 Free CRM customer relationship management software cloud", actualTitle);
 	}
 	
 	@Test(priority=2)
@@ -44,4 +45,5 @@ public class LandingPageTests extends TestBase {
 		String homePageTitle = login.getPageTitle();
 		Assert.assertEquals("Cogmento CRM", homePageTitle);
 	}
+	
 }
