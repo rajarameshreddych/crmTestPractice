@@ -44,7 +44,8 @@ public class TestBase {
 		String browser = config.getProperty("browser");
 		
 		if(browser.equalsIgnoreCase("Chrome")) {
-			System.setProperty("webdriver.chrome.driver", "C://Users//rrreddy//Downloads//chromedriver_win32_88//chromedriver.exe");
+			String chromeDriverPath = System.getProperty("user.dir") + "/myResources/chromedriver.exe";
+			System.setProperty("webdriver.chrome.driver", chromeDriverPath);
 			driver = new ChromeDriver();
 		}
 		
