@@ -15,6 +15,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
@@ -23,6 +24,7 @@ import com.rrr.util.WebEventListener;
 public class TestBase {
 
 	public static WebDriver driver;
+	public static WebDriverWait wait;
 	public static Properties config;
 	public static EventFiringWebDriver eDriver;
 	public static WebEventListener eventListener;
@@ -48,6 +50,8 @@ public class TestBase {
 			System.setProperty("webdriver.chrome.driver", chromeDriverPath);
 			driver = new ChromeDriver();
 		}
+		
+		wait = new WebDriverWait(driver,20);
 		
 		eDriver = new EventFiringWebDriver(driver);
 		eventListener = new WebEventListener();

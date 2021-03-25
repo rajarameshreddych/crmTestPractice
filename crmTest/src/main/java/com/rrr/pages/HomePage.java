@@ -31,7 +31,7 @@ public class HomePage extends TestBase {
 	public HomePage loadHomePage(String userName, String password) {
 		landing = new LandingPage();
 		login = landing.clickLogin();
-		home = login.login(userName, password);
+		home = login.validLogin(userName, password);
 		return home;
 	}
 	

@@ -62,7 +62,7 @@ public class LoginPageTests extends TestBase{
 		landing = new LandingPage();
 		login = landing.clickLogin();
 		
-		home = login.login(username, password);
+		home = login.validLogin(username, password);
 		
 		String homePageTitle = home.getPageTitle();
 		Assert.assertEquals("Cogmento CRM", homePageTitle);

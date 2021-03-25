@@ -3,6 +3,7 @@ package com.rrr.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import com.rrr.base.TestBase;
 
@@ -35,7 +36,7 @@ public class LoginPage  extends TestBase{
 		return driver.getTitle();
 	}
 	
-	public HomePage login(String email1, String password1) {
+	public HomePage validLogin(String email1, String password1) {
 		email.sendKeys(email1);
 		password.sendKeys(password1);
 		loginButton.click();

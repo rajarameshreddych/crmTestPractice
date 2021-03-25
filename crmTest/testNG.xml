@@ -4,16 +4,17 @@
 <suite name="Suite">
 
 	<listeners>
-		<listener class-name="com.rrr.ExtentReports.MyExtentReportListener" />
+		<!--<listener class-name="com.rrr.ExtentReports.MyExtentReportListener" />-->
+		<listener class-name="com.rrr.util.ReRunFailedTests" />
 	</listeners>
 
 
 	<test thread-count="5" name="Test">
 		<classes>
 			<class name="com.rrr.tests.LandingPageTests" />
-			<class name="com.rrr.tests.LoginPageTests" />
+			<!-- <class name="com.rrr.tests.LoginPageTests" />
 			<class name="com.rrr.tests.HomePageTests" />
-			<class name="com.rrr.tests.ContactsPageTests" />
+			<class name="com.rrr.tests.ContactsPageTests" /> -->
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -26,7 +26,7 @@ public class HomePageTests extends TestBase{
 	public void userShouldBeRedirectedToContactsPageOnClickingContacts() {
 		landing = new LandingPage();
 		login = landing.clickLogin();
-		home = login.login(username, password);
+		home = login.validLogin(username, password);
 		home.clickOnHome();
 		contacts = home.clickOnContacts();
 		System.out.println("test");
