@@ -16,5 +16,5 @@
 			<class name="com.rrr.tests.HomePageTests" />
 			<class name="com.rrr.tests.ContactsPageTests" /> -->
 		</classes>
-	</test> <!-- Test -->
+	</test> <!-- Test1 -->
 </suite> <!-- Suite -->
